@@ -1,0 +1,24 @@
+# Hugo default output directory
+public/
+
+node_modules/
+build/
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# Linux
+.directory
+
+# Resume Build Files
+static/resume/*
+!static/resume/Resume.pdf
+!static/resume/Resume.tex
+!static/resume/Resume.cls
