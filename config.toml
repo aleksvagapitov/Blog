@@ -411,7 +411,7 @@ theme = "LoveIt"
       # whether to anonymize IP
       anonymizeIP = false
       # whether to use cookie
-      cookie = false
+      cookie = true
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
