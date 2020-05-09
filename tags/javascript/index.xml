@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Javascript - Tag - Aleksandr Agapitov</title>
+        <link>https://aleksvagapitov.github.io/tags/javascript/</link>
+        <description>Javascript - Tag - Aleksandr Agapitov</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aleksvagapitov@gmail.com (Aleksandr)</managingEditor>
+            <webMaster>aleksvagapitov@gmail.com (Aleksandr)</webMaster><lastBuildDate>Wed, 09 Oct 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://aleksvagapitov.github.io/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>ASP.NET Core with Tabulator for Creating Dynamic Tables with Pagination, Filtering and Sorting</title>
+    <link>https://aleksvagapitov.github.io/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/</link>
+    <pubDate>Wed, 09 Oct 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://aleksvagapitov.github.io/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/</guid>
+    <description><![CDATA[<p><a href="http://tabulator.info" target="_blank" rel="noopener noreffer">Tabulator</a> is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: <a href="https://www.handsontable.com" target="_blank" rel="noopener noreffer">Handsontable</a>, <a href="https://www.datatables.net" target="_blank" rel="noopener noreffer">Datatables</a> as well as custom <a href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0" target="_blank" rel="noopener noreffer">Razor Pages</a>; I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.</p>
+<p>All of the code from this article can be found <a href="https://github.com/aleksvagapitov/DotnetTabulatorFiltering" target="_blank" rel="noopener noreffer">here</a>.</p>
+<figure>
+  
+  <figcaption>This is what we are building in this article. </figcaption>
+</figure>]]></description>
+</item></channel>
+</rss>
