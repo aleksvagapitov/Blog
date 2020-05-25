@@ -12,14 +12,16 @@ tags: ["ASP.NET", "EntityFramework", "Javascript"]
 categories: ["Tutorials"]
 ---
 
-
-[Tabulator](http://tabulator.info) is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: [Handsontable](https://www.handsontable.com), [Datatables](https://www.datatables.net) as well as custom [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0); I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.
-
-All of the code from this article can be found [here](https://github.com/aleksvagapitov/DotnetTabulatorFiltering).
 <figure>
   <img src="/images/2019/oct/dotnet-tabulator-filtering.png" height="250" alt="Dotnet-Tabulator-Filtering"/>
   <figcaption>This is what we are building in this article. </figcaption>
 </figure>
+
+<!--more-->
+
+[Tabulator](http://tabulator.info) is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: [Handsontable](https://www.handsontable.com), [Datatables](https://www.datatables.net) as well as custom [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0); I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.
+
+All of the code from this article can be found [here](https://github.com/aleksvagapitov/DotnetTabulatorFiltering).
 
 <!--more-->
 

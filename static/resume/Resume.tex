@@ -1,6 +1,5 @@
 \documentclass[]{Resume}
 \usepackage{fancyhdr}
- 
 \pagestyle{fancy}
 \fancyhf{}
  
@@ -42,7 +41,8 @@
 \subsection{Rutgers University}
 \descript{School of Arts and Sciences}
 \descript{B.S. Computer Science}
-\location{December 2019 | New Brunswick, NJ}
+\location{Graduated May 2020}
+\location{New Brunswick, NJ}
 \sectionsep
 
 
@@ -52,7 +52,8 @@
 
 \section{Links} 
 Github:// \href{https://github.com/aleksvagapitov}{\bf aleksvagapitov} \\
-LinkedIn://  \href{https://www.linkedin.com/in/aleksvagapitov//}{\bf aleksvagapitov}
+LinkedIn://  \href{https://www.linkedin.com/in/aleksvagapitov}{\bf aleksvagapitov} \\
+Blog://  \href{https://aleksvagapitov.github.io}{\bf aleksvagapitov}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -77,20 +78,37 @@ MATH251 - Multivariable Calculus
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Languages}
-- C\# ASP.NET \\
-- Angular, Javascript, HTML, CSS \\
-- SQL, MongoDB \\
-- Bash, Python, Powershell
+\subsection{Programming}
+- C\# \\
+- Javascript \\
+- Bash \\ 
+- Powershell \\
+- Python
 \sectionsep
 
-\subsection{Infrastructure}
-- OS: Linux, Windows, MacOS \\
-- Containers: Docker \\
-- VPS: AWS, Azure, DigitalOcean \\
-- Provisioners: Terraform \\
-- CI/CD: TeamCity, Travis-CI \\
+\subsection{Frameworks/Libraries}
+- .NET Core \\
+- React.js \\
+- ASP.NET MVC
 \sectionsep
+
+\subsection{Technologies}
+- Docker \\
+- Terraform \\
+- AWS, Azure, DigitalOcean \\
+- Linux, MacOS, Windows \\
+\sectionsep
+
+\subsection{Tools}
+- TeamCity, Travis-CI \\
+- Jira \\
+- Bitbucket
+\sectionsep
+
+\subsection{Databases}
+- PostgreSQL, MSSQL, MySQL
+\sectionsep
+
 
 %\textbullet{} \LaTeX\ \\ 
 
@@ -111,11 +129,19 @@ MATH251 - Multivariable Calculus
 \section{Experience}
 \runsubsection{TDK Electronics Inc.}
 \descript{| Software Engineering Intern }
-\descript{Apr 2019 - Present | Iselin, NJ}
-\location{ Worked on a development team to plan, design and develop an application to process quotes, make requests for parts as well as to track shipments }
-\textbullet{} Developed management system which supports Distribution Sales Department \\
-\textbullet {} Worked with C\#, ASP.NET, ADO.NET, MSSQL \\
-\textbullet{} To deliver a great user experience the following Javascript Frameworks were used:  Angular, Datatables and Handsontable \\
+\descript{Apr 2019 - May 2020 | Iselin, NJ}
+\location{ Designed and developed applications for Logistics and Distribution Sales Teams. Written in C\# .NET, AngularJS and MSSQL }
+
+\textbullet{ Shipment Tracker for Logistics Team } \\
+\textemdash{ Used Handsontable Javscript library to Create an Interactive UI } \\
+\textbullet{ Opportunities for Approval Workflow for Distribution Sales Team. Representatives create Opportunities for approval by  Distribution Sales Team  } \\
+\textemdash{ Used Tabulator Javascript library to create an Interactive UI} \\
+\textemdash{ Integrated ability to send Emails upon Approval and Rejection} \\
+\textbullet{ Migrated Development and Production Environments from Windows Server 2012 to 2016 } \\
+\textemdash{ Migrated IIS, TeamCity, Jira and Confluence Environments} \\
+\textemdash{ Used Powershell to created custom deployment script for deployment to secure production server } \\
+\textbullet{ Diagnosed and resolved technical issues } \\
+
 \sectionsep
 
 
@@ -124,31 +150,38 @@ MATH251 - Multivariable Calculus
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{Trip Planner and Recorder} | \href{https://github.com/Cushionyten0/TheWorld/}{\bf Link} \\
-\descript{May 2018 - Dec 2018}
-\location{A website for tracking the travel locations within trips. Written in C\# using ASP.NET Framework}
-\textbullet{} Authentication through ASP.NET Identity \\
-\textbullet{} Implemented full deployment lifecycle Github/Travis-CI/AWS EC2/Docker \\
-\textbullet{} Communicated with MySQL database using Entity Framework \\
-\textbullet{} To minimize the strain on the server as well as to provide interactive features Angular JS was used \\
-\textbullet{} Created a map consisting of accurate locations of all cities in a Trip using Google Maps API as well as Bing API
+
+\runsubsection{ Activities Social Network } \href{https://activities-social-network.herokuapp.com/}{\bf Website} | \href{https://github.com/aleksvagapitov/ActivitiesSocialNetwork/}{\bf Github}\\
+\descript{ Jan 2020 - May 2020 } 
+\location{ Designed and developed a Social Network Website for recording, sharing and chatting about activities. }
+\textbullet{ Front-end developed using React.js} \\
+\textbullet{ Back-end developed using C\# .NET Core 3} \\
+\textbullet{ Used Mobx to manage application state } \\
+\textbullet{ Used SignalR to implement real time chatting functionality  } \\
+\textbullet{ Used ASP.NET Identity to manage authentication state via JSON Web Tokens (JWT) } \\
+\textbullet{ Deployed to Heroku using Teamcity and Docker  } \\
 
 \sectionsep
 
-\runsubsection{ Cyber Security Tools } \\
-\descript{ Jan 2019 - May 2019} 
-\location{ End-To-End Encrypted Communication }
-\textbullet{} Implemented a solution for encrypting files using public key and decrypting using private key \\
-\location{ Substitution Cipher Decryptor}
-\textbullet{} Implemented Algorithms to break substitution ciphers programmatically using Python  
+
+\runsubsection{Trip Planner and Recorder} \href{https://github.com/aleksvagapitov/Trip-Planner-and-Recorder/}{\bf Github} \\
+\descript{May 2018 - Dec 2018}
+\location{ Designed and developed website for planning and recording travel. }
+\textbullet{ Front-end developed using AngularJS} \\
+\textbullet{ Back-end developed using C\# .NET Core 2} \\
+\textbullet{ Created a map consisting of accurate locations of all cities in a Trip using Google Maps API as well as Bing API } \\
+\textbullet{ Used ASP.NET Identity to manage authentication state via JSON Web Tokens (JWT)}  \\
+\textbullet{ Used  Entity Framework to query MySQL database}  \\
+\textbullet{ Deployed to AWS EC2 using Travis-CI and Docker} \\
 
 \sectionsep
 
 \runsubsection{ Auction Website } \\
 \descript{ Jan 2018 - May 2018} 
 \location{ A website for creating an action for an item, bidding, buying out and calculating profits }
-\textbullet{} Implemented using Java with Java Server Pages Extension, with main focus being on SQL queries to retrieve information such as SalesReports as well as revenue for a user. \\
-\textbullet{} Hosted on AWS using Tomcat
+\textbullet{} Implemented using Java with Java Server Pages Extension \\
+\textbullet{ Used MySQL to retrieve information such as SalesReports as well as revenue for a user.} \\
+\textbullet{} Deployed to AWS EC2 using Tomcat
 
 \sectionsep
 
