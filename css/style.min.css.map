@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/Users/aleksandr/Desktop/Projects/blog",
+	"sourceRoot": "/Users/aleksandr/Desktop/Projects/Blog",
 	"sources": [
 		"themes/LoveIt/assets/css/style.template.scss",
 		"themes/LoveIt/assets/css/_variables.scss",

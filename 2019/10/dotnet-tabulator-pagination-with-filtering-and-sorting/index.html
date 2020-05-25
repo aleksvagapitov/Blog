@@ -147,12 +147,13 @@ EntityFramework Core With Pagination
     <li><a href="#front-end-tabulator-code">Front-End Tabulator Code</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p><a href="http://tabulator.info" target="_blank" rel="noopener noreffer">Tabulator</a> is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: <a href="https://www.handsontable.com" target="_blank" rel="noopener noreffer">Handsontable</a>, <a href="https://www.datatables.net" target="_blank" rel="noopener noreffer">Datatables</a> as well as custom <a href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0" target="_blank" rel="noopener noreffer">Razor Pages</a>; I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.</p>
-<p>All of the code from this article can be found <a href="https://github.com/aleksvagapitov/DotnetTabulatorFiltering" target="_blank" rel="noopener noreffer">here</a>.</p>
-<figure>
+            </div><div class="content" id="content"><figure>
   <img src="/images/2019/oct/dotnet-tabulator-filtering.png" height="250" alt="Dotnet-Tabulator-Filtering"/>
   <figcaption>This is what we are building in this article. </figcaption>
 </figure>
+<p><a href="http://tabulator.info" target="_blank" rel="noopener noreffer">Tabulator</a> is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: <a href="https://www.handsontable.com" target="_blank" rel="noopener noreffer">Handsontable</a>, <a href="https://www.datatables.net" target="_blank" rel="noopener noreffer">Datatables</a> as well as custom <a href="https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0" target="_blank" rel="noopener noreffer">Razor Pages</a>; I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.</p>
+<p>All of the code from this article can be found <a href="https://github.com/aleksvagapitov/DotnetTabulatorFiltering" target="_blank" rel="noopener noreffer">here</a>.</p>
+<!--more-->
 <h2 id="model-for-this-example">Model for this example</h2>
 <p>In this example we will use a Database Schema with the following Model:</p>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public</span> <span class="k">class</span> <span class="nc">Contact</span>
