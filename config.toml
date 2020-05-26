@@ -45,13 +45,21 @@ theme = "LoveIt"
     title = ""
     weight = 4
   [[menu.main]]
+    identifier = "portfolio"
+    pre = ""
+    post = ""
+    name = "Portfolio"
+    url = "/portfolio/"
+    title = ""
+    weight = 5
+  [[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-fw'></i>"
     post = ""
     name = ""
     url = "https://github.com/aleksvagapitov"
     title = "GitHub"
-    weight = 5
+    weight = 6
 
 [params]
   #  LoveIt theme version
