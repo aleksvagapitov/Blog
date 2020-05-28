@@ -19,5 +19,8 @@
   <figcaption>
     <i class="fab fa-github"></i> 
     <a href="https://github.com/aleksvagapitov/Trip-Planner-and-Recorder">Github</a>
+    <span>&nbsp;&nbsp;</span>
+    <i class="fas fa-globe"></i>
+    <a href="http://the-world-trip-planner.herokuapp.com/auth/login">Website</a>
   </figcaption>
 </figure>
