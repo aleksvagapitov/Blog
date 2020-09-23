@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  27 AUG 2020 15:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  23 SEP 2020 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,29 +912,35 @@ LaTeX Font Warning: Font shape `TU/HeitiSCMedium(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/HeitiTCMedium(0)/m/sc' undefined
 (Font)              using `TU/HeitiTCMedium(0)/m/n' instead on input line 44.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 158.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 158.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `Resume.out' has not changed.
-(rerunfilecheck)             Checksum: CE91FDA7F79900F3E0CC3B3688901384.
+(rerunfilecheck)             Checksum: C17C05D67DB9C5A3F93D6763EB85FD94.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 25081 strings out of 492916
- 462713 string characters out of 6133346
- 557864 words of memory out of 5000000
- 28892 multiletter control sequences out of 15000+600000
- 533274 words of font info for 97 fonts, out of 8000000 for 9000
+ 25106 strings out of 492916
+ 463090 string characters out of 6133346
+ 558013 words of memory out of 5000000
+ 28907 multiletter control sequences out of 15000+600000
+ 536026 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,11n,118p,339b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,118p,339b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Resume.pdf (1 page).
