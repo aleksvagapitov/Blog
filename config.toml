@@ -565,3 +565,153 @@ theme = "LoveIt"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 3
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 4
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 5
+        identifier = "portfolio"
+        pre = ""
+        post = ""
+        name = "Portfolio"
+        url = "/portfolio/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/aleksvagapitov"
+        title = "GitHub"
+    [languages.en.params]
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = "Hi, my name is Aleksandr"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.en.params.social]
+        GitHub = "aleksvagapitov"
+        Twitter = "aleksvagapitov"
+        Instagram = "aleksvagapitov"
+        Phone = "305-319-9220"
+        Email = "aleksvagapitov@gmail.com"
+        RSS = true
+
+  [languages.jp]
+    weight = 2
+    languageCode = "jp"
+    languageName = "日本語"
+    hasCJKLanguage = true
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.jp.menu]
+      [[languages.jp.menu.main]]
+        weight = 1
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "投稿"
+        url = "/posts/"
+        title = ""
+      [[languages.jp.menu.main]]
+        weight = 2
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "タグ"
+        url = "/tags/"
+        title = ""
+      [[languages.jp.menu.main]]
+        weight = 3
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "種類"
+        url = "/categories/"
+        title = ""
+      [[languages.jp.menu.main]]
+        weight = 4
+        identifier = "About"
+        pre = ""
+        name = "について"
+        url = "/about/"
+        title = ""
+      [[languages.jp.menu.main]]
+        weight = 5
+        identifier = "portfolio"
+        pre = ""
+        post = ""
+        name = "ポートフォリオ"
+        url = "/portfolio/"
+        title = ""
+      [[languages.jp.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/aleksvagapitov"
+        title = "GitHub"
+    [languages.jp.params]
+      [languages.jp.params.home]
+        rss = 10
+        [languages.jp.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = "こんにちは。アレックスと申します。"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.jp.params.social]
+        GitHub = "aleksvagapitov"
+        Twitter = "aleksvagapitov"
+        Instagram = "aleksvagapitov"
+        Phone = "070-1291-8405"
+        Email = "aleksvagapitov@gmail.com"
+        RSS = true
