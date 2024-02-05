@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "について"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 
@@ -10,9 +10,9 @@ comment:
   enable: false
 ---
 
-I'm Aleksandr Agapitov, a software engineer and an aspiring artist.
+アレクサンダ　アガピトブと申します。ソフトウェアエンジニアとあてーすとb
 
-As a software engineer, I write mostly in C# using .NET and React.js; In addition, I own/manage a few Linux servers and utilize Docker for deployments. I have also written projects using Python and AngularJS.
+ソフトウェアエンジニアとして、主に.NETとReact.jsを使ってC#で書いています。また、Linuxサーバーをいくつか所有／管理しており、デプロイにはDockerを活用しています。また、Python、Go、Vue.jsを使ってプロジェクトを書いたこともあります。
 
 <object data="/resume/Resume.pdf" type="application/pdf" width="700px" height="900px">
     <embed src="/resume/Resume.pdf">

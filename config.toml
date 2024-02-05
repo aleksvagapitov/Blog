@@ -1,8 +1,8 @@
 baseURL = "https://aleksvagapitov.github.io"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "jp"
 # language code
-languageCode = "en"
+languageCode = "jp"
 title = "Aleksandr Agapitov"
 
 # Change the default theme to be use when building the site with Hugo

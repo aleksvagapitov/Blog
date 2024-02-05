@@ -1,0 +1,190 @@
+# Translations for Japanese
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ==
+[backToTop]
+other = "トップに戻る"
+
+[viewComments]
+other = "コメントを見る"
+# === baseof ==
+
+# === Post ===
+[posts]
+other = "投稿"
+# === Post ===
+
+# === Taxonomy ===
+[allSome]
+other = "全 %s"
+
+[tag]
+other = "タグ"
+
+[tags]
+other = "タグ"
+
+[category]
+other = "種類"
+
+[categories]
+other = "種類"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "もっと"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "言語を選択する"
+
+[switchTheme]
+other = "テーマの切り替え"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "提供者: %s"
+
+[theme]
+other = "テーマ"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "jp"
+
+[valinePlaceholder]
+other = "Your comment ..."
+
+[facebookLanguageCode]
+other = "ja_JP"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "検索"
+
+[searchPlaceholder]
+other = "タイトルや内容を検索する..."
+
+[clear]
+other = "クリア"
+
+[cancel]
+other = "キャンセル"
+
+[noResultsFound]
+other = "結果が見つかりません"
+
+[lunrLanguageCode]
+other = "jp"
+
+[copyToClipboard]
+other = "クリップボードにコピー"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "共有する"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "コンテンツ"
+
+[publish]
+other = "公開された:"
+
+[included]
+other = "含まれている:"
+
+[wordCount]
+other = "{{ .Count }}単語くらい"
+
+[readingTime]
+other = "{{ .Count }} 分"
+
+[views]
+other = "ビュー"
+
+[author]
+other = "作者"
+
+[lastMod]
+other = "記事は %s に更新されました"
+
+[license]
+other = "%s ライセンスに基づいて公開されています"
+
+[seeMarkdown]
+other = "マークダウンを読む"
+
+[back]
+other = "戻る"
+
+[home]
+other = "ホームページ"
+
+[readMore]
+other = "続きを読む"
+# === posts/single.html ===
+
+# === 404.html ===
+[pageNotFound]
+other = "ページが見つかりません"
+
+[pageNotFoundText]
+other = "お探しのページは存在しません。申し訳ございません。"
+# === 404.html ===
+
+# === shortcodes/admonition.html ===
+[note]
+other = "注記"
+
+[abstract]
+other = "概要"
+
+[info]
+other = "インフォ"
+
+[tip]
+other = "Tip"
+
+[success]
+other = "成功"
+
+[question]
+other = "質問"
+
+[warning]
+other = "注意"
+
+[failure]
+other = "失敗"
+
+[danger]
+other = "危険"
+
+[bug]
+other = "バグ"
+
+[example]
+other = "例"
+
+[quote]
+other = "クォウト"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "新"
+
+[changed]
+other = "改め"
+
+[deleted]
+other = "消された"
+# === shortcodes/version.html ===

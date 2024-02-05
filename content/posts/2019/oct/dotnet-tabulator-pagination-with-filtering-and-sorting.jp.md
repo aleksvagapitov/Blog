@@ -9,7 +9,7 @@ description: |
   EntityFramework Core With Pagination
 
 tags: ["ASP.NET", "EntityFramework", "Javascript"]
-categories: ["Tutorials"]
+categories: ["チュートリアル"]
 ---
 
 <figure>
