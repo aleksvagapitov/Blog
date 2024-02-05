@@ -1,7 +1,7 @@
 ---
 title: "ASP.NET Core with Tabulator for Creating Dynamic Tables with Pagination, Filtering and Sorting"
 date: 2019-10-09
-author: "Aleksandr"
+author: "Aleksandr Agapitov"
 draft: false
 description: |
   Implementing Dynamic Tables using 
