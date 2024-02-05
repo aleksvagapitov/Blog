@@ -2,102 +2,94 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://aleksvagapitov.github.io/jp/portfolio/</loc><lastmod>2020-05-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/portfolio/</loc><lastmod>2020-05-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/portfolio/"
+                        href="https://aleksvagapitov.github.io/en/portfolio/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/portfolio/"
+                    href="https://aleksvagapitov.github.io/portfolio/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/"
+                        href="https://aleksvagapitov.github.io/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/"
+                    href="https://aleksvagapitov.github.io/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/tags/asp.net/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/tags/asp.net/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/tags/asp.net/"
+                        href="https://aleksvagapitov.github.io/en/tags/asp.net/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/tags/asp.net/"
+                    href="https://aleksvagapitov.github.io/tags/asp.net/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/categories/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/"
+                        href="https://aleksvagapitov.github.io/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/"
+                    href="https://aleksvagapitov.github.io/categories/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/categories/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/tags/entityframework/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/categories/"
+                        href="https://aleksvagapitov.github.io/en/tags/entityframework/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/categories/"
+                    href="https://aleksvagapitov.github.io/tags/entityframework/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/tags/entityframework/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/tags/javascript/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/tags/entityframework/"
+                        href="https://aleksvagapitov.github.io/en/tags/javascript/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/tags/entityframework/"
+                    href="https://aleksvagapitov.github.io/tags/javascript/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/tags/javascript/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/posts/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/tags/javascript/"
+                        href="https://aleksvagapitov.github.io/en/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/tags/javascript/"
+                    href="https://aleksvagapitov.github.io/posts/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/posts/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/tags/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/posts/"
+                        href="https://aleksvagapitov.github.io/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/posts/"
+                    href="https://aleksvagapitov.github.io/tags/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/tags/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/categories/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://aleksvagapitov.github.io/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/tags/"
+                        href="https://aleksvagapitov.github.io/en/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/tags/"
+                    href="https://aleksvagapitov.github.io/2019/10/dotnet-tabulator-pagination-with-filtering-and-sorting/"
                     /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/categories/tutorials/</loc><lastmod>2019-10-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://aleksvagapitov.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://aleksvagapitov.github.io/categories/tutorials/"
+                        href="https://aleksvagapitov.github.io/en/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/categories/tutorials/"
-                    /></url><url>
-            <loc>https://aleksvagapitov.github.io/jp/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://aleksvagapitov.github.io/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="jp"
-                    href="https://aleksvagapitov.github.io/jp/about/"
+                    href="https://aleksvagapitov.github.io/about/"
                     /></url></urlset>
