@@ -1,14 +1,13 @@
-# について
+# About Me
 
 
-アレクサンダ　アガピトブと申します。ソフトウェア・エンジニア、アーティスト志望。
+I'm Aleksandr Agapitov, a software engineer and an aspiring artist.
 
-ソフトウェアエンジニアとして、主に.NETとReact.jsを使ってC#で書いています。また、Linuxサーバーをいくつか所有／管理しており、デプロイにはDockerを活用しています。また、Python、Go、Vue.jsを使ってプロジェクトを書いたこともあります。
+As a software engineer, I write mostly in C# using .NET and React.js; In addition, I own/manage a few Linux servers and utilize Docker for deployments. I have also written projects using Python, Go, and Vue.js
 
-<a href="/resume/職務経歴書.pdf">職務経歴書をダウンロード</a>
-<object data="/resume/職務経歴書.pdf" type="application/pdf" width="700px" height="900px">
-    <embed src="/resume/職務経歴書.pdf">
-        <p>このブラウザはPDFをサポートしていません。PDFをダウンロードしてご覧ください： <a href="/resume/職務経歴書.pdf">PDFをダウンロード</a>.</p>
+<object data="/resume/Resume.pdf" type="application/pdf" width="700px" height="900px">
+    <embed src="/resume/Resume.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/resume/Resume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 

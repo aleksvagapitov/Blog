@@ -1,22 +1,22 @@
-# ページネーション、フィルタリング、ソートを備えた動的テーブルを作成するためのタブレータを備えたASP.NET Core
+# ASP.NET Core with Tabulator for Creating Dynamic Tables with Pagination, Filtering and Sorting
 
 
 <figure>
   <img src="/images/2019/oct/dotnet-tabulator-filtering.png" height="250" alt="Dotnet-Tabulator-Filtering"/>
-  <figcaption>これが、この記事で私たちが作っているものだ。</figcaption>
+  <figcaption>This is what we are building in this article. </figcaption>
 </figure>
 
 <!--more-->
 
-[Tabulator](http://tabulator.info)は、データ駆動型テーブルを作成するためのJavascriptフレームワークで、ソート、フィルタリング、エクスポート、その他多くの素晴らしい機能など、サーバーサイドにもフロントエンドにも多くの機能を提供しています。以下のようなツールを使ってきました： [Handsontable](https://www.handsontable.com)、[Datatables](https://www.datatables.net)、そしてカスタムの[Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0)のようなツールを使ってきましたが、Tabulatorを試してみることにしました。そして、私が望むすべての機能を無料で提供し、柔軟性に富み、比較的少ないフロントエンドのコードで済む最適なソリューションであることがわかりました。この記事では、この素晴らしいJavascriptフレームワークがASP.NET CoreとEntityFrameworkでどのように効果的に動作するかを紹介する。
+[Tabulator](http://tabulator.info) is a Javascript framework for creating Data Driven Tables that provides lots of functionality out of the box for server-side as well as front-end: sorting, filtering, exporting and many many more awesome features. Having used tools like: [Handsontable](https://www.handsontable.com), [Datatables](https://www.datatables.net) as well as custom [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/sort-filter-page?view=aspnetcore-3.0); I decided to try Tabulator, and found it to be the optimal solution that provides all of the functionality that I want at no cost, with great flexibility, and requires a relatively small amount of front-end code. In this article, I will give you a tour of how this awesome Javascript framework works effectively with ASP.NET Core and EntityFramework.
 
-この記事のコードはすべて、[こちら](https://github.com/aleksvagapitov/DotnetTabulatorFiltering)で見ることができる。
+All of the code from this article can be found [here](https://github.com/aleksvagapitov/DotnetTabulatorFiltering).
 
 <!--more-->
 
-## この例のモデル
+## Model for this example
 
-この例では、以下のモデルを持つデータベース・スキーマを使用します：
+In this example we will use a Database Schema with the following Model:
 
 {{< highlight csharp >}}
 public class Contact
@@ -34,9 +34,9 @@ public class Contact
 {{< / highlight >}}
 
 
-## データベースコンテキストの構造
+## Database Context Structure
 
-この例では、Startup.csファイルで依存性注入を使用したインメモリ・ストレージを使用します：
+For this example we will be using an In-Memory Storage with Dependency Injection in the Startup.cs file:
 
 {{< highlight csharp >}}
 public class TabulatorContext : DbContext
@@ -51,40 +51,39 @@ public class TabulatorContext : DbContext
 }
 {{< / highlight >}}
 
-## リポジトリの構造
+## Repository Structure
 
-リポジトリを見る前にインストールする必要がある重要なパッケージの1つは、[EntityFrameworkPaginateCore](https://www.nuget.org/packages/EntityFrameworkPaginateCore)です。これは、バックエンド側でフィルタリングとソートを行うために必要です。Dotnet CLIを使って、以下のコマンドでインストールできます：
+One of the key packages that need to be installed before we get to looking at the Repository is: [EntityFrameworkPaginateCore](https://www.nuget.org/packages/EntityFrameworkPaginateCore), which is required for all the filtering and sorting on the back-end side. We can install it using Dotnet CLI using the following command:
 
 | dotnet add package EntityFrameworkPaginateCore --version 1.1.0
 
-*Github上のサンプル・プロジェクトには必要なパッケージがすべて含まれており、プロジェクトのREADMEの指示に従うだけです。*
+*The sample project on Github contains all the required packages and all you need to do is follow instruction in the README of the project.*
 
-リポジトリ構造は、以下のメソッドシグネチャに依存しています：
-
+The repository structure relies on the following method signature:
 
 {{< highlight csharp >}}
 Task<TabulatorViewModel> GetFilteredData (int page, int size,
   List<Dictionary<string, string>> filters, List<Dictionary<string, string>> sorters)
 {{< / highlight >}}
 
-ここで重要なのは、「フィルター」と「ソーター」のパラメーターの種類である：
+What is important to note here is the type of 'filters' and 'sorters' parameters, which is:
 
 {{< highlight csharp >}}
 List<Dictionary<string, string>>
 {{< / highlight >}}
 
-というのも、以下のような形式でフィルターを取得することになるからだ：
+since we will be getting filters in the following format:
 {{< highlight json >}}
 [{field:"age", type:">", value:52}, {field:"height", type:"<", value:142}]
 {{< / highlight >}}
 
-とソーター用：
+and for sorters:
 
 {{< highlight json >}}
 [{field: "age", dir: "asc"}]
 {{< / highlight >}}
 
-さらに重要なのは、Tabulatorにデータを戻すために使用するViewModelです：
+What is also important is the ViewModel that we use to pass the data back to the Tabulator:
 
 {{< highlight csharp >}}
 public class TabulatorViewModel
@@ -94,9 +93,9 @@ public class TabulatorViewModel
 }
 {{< / highlight >}}
 
-メソッドの全容は[こちら](https://github.com/aleksvagapitov/DotnetTabulatorFiltering/blob/master/Models/TabulatorRespository.cs)で説明されており、ほとんどの場合、辞書項目のリストを反復処理し、ブログの冒頭で言及したモデルで説明した各カラムのフィールドと値を設定することで構成されている。
+The full method is described [here](https://github.com/aleksvagapitov/DotnetTabulatorFiltering/blob/master/Models/TabulatorRespository.cs) and mostly comprises of iterating over the list of dictionary items and setting the fields and values for each of the columns described in the Model that was mentioned at the beginning of the blog.
 
-## フロントエンド・タブレーター・コード 
+## Front-End Tabulator Code
 {{< highlight csharp >}}
 var table = new Tabulator("#example-table", {
     pagination: "remote",
@@ -117,9 +116,9 @@ var table = new Tabulator("#example-table", {
 });
 {{< / highlight >}}
 
-上記の構造により、Ajaxを使ってデータにフィルタをかけたり、ページ分割したりすることができる。この構造でとても便利なのは、バックエンドを調整することなくフロントエンドからカラムを削除できることだ。**しかし**、フロントエンドに渡すオブジェクトには注意し、APIが何を返すか確認してください。データが漏れないようにする方法は、ViewModelsと[AutoMapper](https://automapper.org)を使うか、通常のオブジェクト合成を使って、関連するデータだけをフロントエンドに渡すことです。このブログでは、あまり多くの概念を紹介しないように、Repositoryメソッドの実装の中で、AutoMapper節が入る箇所をコメントアウトしておきました。最後に、[Postman](https://www.getpostman.com)のようなツールを使ってAPIを照会し、それが返すデータを見ることができる。
+The above structure allows us to filter on the data using Ajax and paginate it. What is very handy about this structure is that we can remove columns from the front-end without having to adjust the back-end. **However**, be careful with the objects that you are passing to the front-end and check what your API returns. The way we can ensure that data does not get leaked is by using ViewModels and [AutoMapper](https://automapper.org) or regular object-composition to pass only the relevant data to the front-end. I have left a commented out line in the Repository method implementation of where the AutoMapper clause would go as to not introduce too many concepts in this blog. Lastly, you can use tools like [Postman](https://www.getpostman.com) to query the API and see the data that it returns.
 
-繰り返しますが、すべてのコードは[こちら](https://github.com/aleksvagapitov/DotnetTabulatorFiltering)に、Tabulatorに関する完全なドキュメントは[こちら](http://tabulator.info)にあります。
+Again, all of the code can be found [here](https://github.com/aleksvagapitov/DotnetTabulatorFiltering) and full documentation on Tabulator can be found [here](http://tabulator.info)
 
-お楽しみください。バグや問題があれば、遠慮なく報告ください： [GitHub issues](https://github.com/aleksvagapitov/DotnetTabulatorFiltering/issues) :)
+Enjoy and feel free to report any bugs or problems you encounter to: [GitHub issues](https://github.com/aleksvagapitov/DotnetTabulatorFiltering/issues) :)
 
